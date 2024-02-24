@@ -118,7 +118,6 @@ img{
 
 p {
     padding: 5px 10px;
-    opacity: 0;
     transition: opacity 0.3s ease-in-out;
 }
 
@@ -132,6 +131,17 @@ p {
 
 .grid-item:hover .title,
 .grid-item:hover .desc {
+    opacity: 1;
+    color: rgb(34,193,195);
+}
+
+img:hover{
+    scale: 1.2;
+    transform: translate(10px, 10px);
+    transform: skew(1deg, 1deg);
+}
+
+.tagline{
     opacity: 1;
 }
 
@@ -159,5 +169,10 @@ p {
         opacity: 1;
         font-size: 1.5rem;
     }
+}
+
+footer{
+    opacity: 1;
+    color: white;
 }
 
