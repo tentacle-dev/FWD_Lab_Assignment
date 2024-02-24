@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanush Seelan</title>
+    <!-- This has the template styling for bg and body and those stuff, so re using some components -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/content.css">
+</head>
+<body>
+    <nav class="flex">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-me.html">About me</a></li>
+            <li><a href="projects.html">Projects</a></li>
+        </ul>
+    </nav>
+    <p class="tagline">Get to know about moi</p>
+    <section>
+        <div>
+            <div class="about-me-table">
+        <table>
+            <tr>
+                <th colspan="2">About Moi</th>
+            </tr>
+            <tr>
+                <td>Je m'appelle</td>
+                <td>Thanush Seelan</td>
+            </tr>
+            <tr>
+                <td>J'ai:</td>
+                <td>20 ans</td>
+            </tr>
+            <tr>
+                <td>Occupation:</td>
+                <td>Programmeur mais student maintentant</td>
+            </tr>
+            <tr>
+                <td>Current Stack:</td>
+                <td>JS, TS, MERN , Tailwind CSS, NoSQL, SQL</td>
+            </tr>
+        </table>
+
+        </div>
+    </section>
+    <section>
+        <div class="form-container">
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message to ME:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Contact me</button>
+        </form>
+    </div>
+    </section>
+</body>
+</html>
